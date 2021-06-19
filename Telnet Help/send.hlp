@@ -1,0 +1,16 @@
+ao              Send Telnet Abort output
+ayt             Send Telnet 'Are You There'
+brk             Send Telnet Break
+ec              Send Telnet Erase Character
+el              Send Telnet Erase Line
+escape          Send current escape character
+ga              Send Telnet 'Go Ahead' sequence
+ip              Send Telnet Interrupt Process
+nop             Send Telnet 'No operation'
+eor             Send Telnet 'End of Record'
+abort           Send Telnet 'Abort Process'
+susp            Send Telnet 'Suspend Process'
+eof             Send Telnet End of File Character
+synch           Perform Telnet 'Synch operation'
+getstatus       Send request for STATUS
+?               Display send options

@@ -1,0 +1,18 @@
+format is:  'mode Mode', where 'Mode' is one of:
+
+character       Disable LINEMODE option
+                (or disable obsolete line-by-line mode)
+line            Enable LINEMODE option
+                (or enable obsolete line-by-line mode)
+
+                These require the LINEMODE option to be enabled
+isig            Enable signal trapping
+-isig           Disable signal trapping
+edit            Enable character editing
+-edit           Disable character editing
+softtabs        Enable tab expansion
+-softtabs       Disable character editing
+litecho         Enable literal character echo
+-litecho        Disable literal character echo
+
+?               Print help information

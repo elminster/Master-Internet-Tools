@@ -1,0 +1,7 @@
+define          Define an environment variable
+undefine        Undefine an environment variable
+export          Mark an environment variable for automatic export
+unexport        Don't mark an environment variable for automatic export
+send            Send an environment variable
+list            List the current environment variables
+?               Print help information

@@ -1,0 +1,42 @@
+echo            character to toggle local echoing on/off
+escape          character to escape back to telnet command mode
+rlogin          rlogin escape character
+tracefile       file to write trace information to
+
+                The following need 'localchars' to be toggled true
+flushoutput     character to cause an Abort Output
+interrupt       character to cause an Interrupt Process
+quit            character to cause an Abort process
+eof             character to cause an EOF
+
+                The following are for local editing in linemode
+erase           character to use to erase a character
+kill            character to use to erase a line
+lnext           character to use for literal next
+susp            character to cause a Suspend Process
+reprint         character to use for line reprint
+worderase       character to use to erase a word
+start           character to use for XON
+stop            character to use for XOFF
+forw1           alternate end of line character
+forw2           alternate end of line character
+ayt             alternate AYT character
+
+autoflush       disable flushing of output when sending interrupt characters
+autosynch       disable automatic sending of interrupt characters in urgent mode
+autologin       disable automatic sending of login and/or authentication info
+authdebug       disable Toggle authentication debugging
+skiprc          disable don't read ~/.telnetrc file
+binary          disable sending and receiving of binary data
+inbinary        disable receiving of binary data
+outbinary       disable sending of binary data
+crlf            disable sending carriage returns as telnet <CR><LF>
+crmod           disable mapping of received carriage returns
+localchars      disable local recognition of certain control characters
+
+debug           disable debugging
+netdata         disable printing of hexadecimal network data (debugging)
+prettydump      disable output of "netdata" to user readable format (debugging)
+options         disable viewing of options processing (debugging)
+termdata        disable (debugging) toggle printing of hexadecimal terminal data
+?               display help information

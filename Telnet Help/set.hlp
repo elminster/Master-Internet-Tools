@@ -1,0 +1,59 @@
+ao              Send Telnet Abort output
+ayt             Send Telnet 'Are You There'
+brk             Send Telnet Break
+ec              Send Telnet Erase Character
+el              Send Telnet Erase Line
+escape          Send current escape character
+ga              Send Telnet 'Go Ahead' sequence
+ip              Send Telnet Interrupt Process
+nop             Send Telnet 'No operation'
+eor             Send Telnet 'End of Record'
+abort           Send Telnet 'Abort Process'
+susp            Send Telnet 'Suspend Process'
+eof             Send Telnet End of File Character
+synch           Perform Telnet 'Synch operation'
+getstatus       Send request for STATUS
+?               Display send options
+telnet> set ?
+echo            character to toggle local echoing on/off
+escape          character to escape back to telnet command mode
+rlogin          rlogin escape character
+tracefile       file to write trace information to
+
+                The following need 'localchars' to be toggled true
+flushoutput     character to cause an Abort Output
+interrupt       character to cause an Interrupt Process
+quit            character to cause an Abort process
+eof             character to cause an EOF
+
+                The following are for local editing in linemode
+erase           character to use to erase a character
+kill            character to use to erase a line
+lnext           character to use for literal next
+susp            character to cause a Suspend Process
+reprint         character to use for line reprint
+worderase       character to use to erase a word
+start           character to use for XON
+stop            character to use for XOFF
+forw1           alternate end of line character
+forw2           alternate end of line character
+ayt             alternate AYT character
+
+autoflush       enable flushing of output when sending interrupt characters
+autosynch       enable automatic sending of interrupt characters in urgent mode
+autologin       enable automatic sending of login and/or authentication info
+authdebug       enable Toggle authentication debugging
+skiprc          enable don't read ~/.telnetrc file
+binary          enable sending and receiving of binary data
+inbinary        enable receiving of binary data
+outbinary       enable sending of binary data
+crlf            enable sending carriage returns as telnet <CR><LF>
+crmod           enable mapping of received carriage returns
+localchars      enable local recognition of certain control characters
+
+debug           enable debugging
+netdata         enable printing of hexadecimal network data (debugging)
+prettydump      enable output of "netdata" to user readable format (debugging)
+options         enable viewing of options processing (debugging)
+termdata        enable (debugging) toggle printing of hexadecimal terminal data
+?               display help information

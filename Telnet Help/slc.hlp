@@ -1,0 +1,5 @@
+export          Use local special character definitions
+import          Use remote special character definitions
+check           Verify remote special character definitions
+?               Print help information
+Special characters are local values

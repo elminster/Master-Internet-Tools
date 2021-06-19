@@ -1,0 +1,4 @@
+status          Display current status of authentication information
+disable         Disable an authentication type ('auth disable ?' for more)
+enable          Enable an authentication type ('auth enable ?' for more)
+?               Print help information

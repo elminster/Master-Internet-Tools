@@ -1,0 +1,19 @@
+autoflush       toggle flushing of output when sending interrupt characters
+autosynch       toggle automatic sending of interrupt characters in urgent mode
+autologin       toggle automatic sending of login and/or authentication info
+authdebug       toggle Toggle authentication debugging
+skiprc          toggle don't read ~/.telnetrc file
+binary          toggle sending and receiving of binary data
+inbinary        toggle receiving of binary data
+outbinary       toggle sending of binary data
+crlf            toggle sending carriage returns as telnet <CR><LF>
+crmod           toggle mapping of received carriage returns
+localchars      toggle local recognition of certain control characters
+
+debug           toggle debugging
+netdata         toggle printing of hexadecimal network data (debugging)
+prettydump      toggle output of "netdata" to user readable format (debugging)
+options         toggle viewing of options processing (debugging)
+termdata        toggle (debugging) toggle printing of hexadecimal terminal data
+
+?               display help information
